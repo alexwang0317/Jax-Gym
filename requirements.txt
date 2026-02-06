@@ -1,0 +1,19 @@
+# JAX and ecosystem
+jax[cpu]>=0.4.20
+flax>=0.8.0
+optax>=0.1.7
+orbax-checkpoint>=0.4.0
+einops>=0.7.0
+
+# Testing
+pytest>=7.0.0
+
+# Core dependencies
+numpy>=1.24.0
+
+# PyTorch for DataLoader integration
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Visualization
+matplotlib>=3.7.0
